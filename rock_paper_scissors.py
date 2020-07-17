@@ -24,7 +24,7 @@ while True:
     if user == computer:
         print("\n\n >>> Opps,its a tie")
     
-    else:
+    else:  # checking who is the Winner
         if user == "Paper" and computer == "Rock":
             print("\n\nWinner => hurray! you win")
         elif user == "Rock" and computer == "Paper":
@@ -37,8 +37,6 @@ while True:
             print("\n\nWinner => hurray! you win")
         elif user == "Scissor" and computer == "Rock":
             print("\n\nopps! you loss \n Winner =>  Computer win")
-        else:
-            print("WTF")
 
 
     ans = input("\n\n Do you want to play again? 'Y' or 'N'\n ans: ")
